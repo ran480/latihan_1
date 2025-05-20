@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table Form </title>
+    <style>
+       table, th, td {
+		border: solid 1px black;
+	}
+    </style>
+</head>
+<body>
+    <h2>対戦結果</h2>
+    <p>第73回JABA九州大会<br>
+        2021年5月9日(日) 9:00<br>
+        試合会場：オーヴィジョンスタジアム下関</p>
+
+    <!-- Tabel skor pertandingan -->
+    <table>
+        <tr>
+            <th>チーム名</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>計</th>
+        </tr>
+        <tr>
+            <td>パナソニック</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Honda熊本</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <!-- Tabel battery -->
+    <table class="battery-table">
+        <tr>
+            <th rowspan="5">バッテリー</th>
+            <th colspan="5">Honda熊本</th>
+            <th colspan="5">パナソニック</th>
+        </tr>
+        <tr>
+            <td colspan="5">投手：島袋、福田、横川、内田、高山、中津<br>捕手：竹葉</td>
+            <td colspan="5">投手：榎本 捕手：川上</td>
+        </tr>
+    </table>
+
+    <h2>お問い合わせ</h2>
+
+    <!-- Form kontak -->
+    <form>
+        <div class="form-group">
+            <label for="name">お名前 [必須]</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">メールアドレス [必須]</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">電話番号 [任意]</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+            <label for="inquiry">ご用件 [必須]</label>
+            <select id="inquiry" name="inquiry" required>
+                <option value="">選択してください</option>
+                <option value="個人">書籍についてのご質問(個人のお客様)</option>
+                <option value="取次・書店">書籍についてのご質問(取次・書店様)</option>
+                <option value="メディア">書籍についてのご質問(メディア関係者様)</option>
+                <option value="アルバイト">アルバイト・パートに関するお問い合わせ</option>
+                <option value="仕事">仕事のご依頼・お問い合わせ</option>
+                <option value="外部">外部スタッフのご希望(フリーの方、制作会社様)</option>
+                <option value="その他">その他のお問合せ</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message">お問い合わせ内容 [必須]</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit">確認</button>
+    </form>
+</body>
+
+</html>
