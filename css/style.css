@@ -1,0 +1,29 @@
+/* style body halaman */
+
+body {
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(rgb(214, 148, 15),rgb(100, 100, 14, 0.675));
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* bagian header */
+
+.Latihan {
+    color: white;
+    background: url(https://cdn.pixabay.com/photo/2025/02/09/12/19/lake-9394214_1280.jpg);
+    padding: 25px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
+
+/* bagian tombol */
+a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(246, 239, 250);
+    font-family: "press start 2p", "consolas", sans-serif;
+    font-size: 70px;
+}

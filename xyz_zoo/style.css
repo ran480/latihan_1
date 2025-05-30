@@ -1,0 +1,71 @@
+/* style body halaman */
+
+body {
+    text-align: left;
+    margin: 0;
+    background: linear-gradient(rgb(21, 94, 18),rgba(230, 230, 59, 0.675));
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* header style */
+.xyz_zoo {
+    color: rgb(12, 12, 12);
+    background: url("img/zoo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    
+}
+.pexels {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.pexels a {
+    text-decoration: none;
+    color: black;
+}
+
+.pixabay {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.pixabay a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    background-color: white;
+    background-size: 20px;
+}
+.zoo{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.animal-list {
+    background-color: rgb(218, 205, 175);
+    width: 1100px;
+    list-style: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 9px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(248, 168, 69);
+    
+}
+footer ol {
+    padding: 0;
+}
